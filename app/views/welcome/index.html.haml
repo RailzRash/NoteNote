@@ -1,1 +1,32 @@
-%h1 This is the welcome placeholder
+#banner
+	.banner_content
+		%h1 NoteNote
+		%p Your online notebook. Never forget an idea again.
+		%button= link_to "Sign Up", new_user_registration_path
+
+#testimonial
+	.wrapper
+		%p.quote "The greatest notebook application. Period."
+		%p.name - Mohammed Rashid
+
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Notes
+				%p Good Artists copy great artists steal 
+			.callout
+				%h2 Notes
+				%p Good Artists copy great artists steal 
+			.callout
+				%h2 Notes
+				%p Good Artists copy great artists steal 
+
+#bottom_cta
+	.wrapper
+		%h2 For Magicians
+		%p I would like developers who hold magic fingers to sign up to this site. 
+		%utton= link_to 'Enter the world of magic', new_user_registration_path
+
+%footer
+	%p &copy; F-Sharp Media
