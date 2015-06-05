@@ -1,28 +1,9 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A beautiful looking app to store your notes on NoteNote!
 
-Things you may want to cover:
+Libraries you may want to look into:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+<tt>gem 'haml', '~> 4.0.6'</tt>
+<tt>gem 'simple_form', '~> 3.1.0'</tt>
+<tt>gem 'devise', '~> 3.4.1'</tt>
