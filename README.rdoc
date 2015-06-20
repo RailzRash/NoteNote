@@ -7,3 +7,9 @@ Libraries you may want to look into:
 <tt>gem 'haml', '~> 4.0.6'</tt>
 <tt>gem 'simple_form', '~> 3.1.0'</tt>
 <tt>gem 'devise', '~> 3.4.1'</tt>
+
+Run this app in your local environment:
+
+1. Fork and Clone!
+2. bundle
+3. Enjoy
